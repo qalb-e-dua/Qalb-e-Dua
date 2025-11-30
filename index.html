@@ -9,13 +9,16 @@
     <title>Qalb-e-Dua</title>
     <style>
         /* BOOK DESIGN */
-        body { 
-            font-family: "Georgia", "Times New Roman", serif;
-            background-color: #FCFBF4; 
-            margin: 0; 
-            height: 100vh; 
-            overflow: hidden; 
-        }
+       body { 
+    font-family: "Georgia", "Times New Roman", serif;
+    background-color: #FCFBF4; 
+    margin: 0; 
+    padding: 1rem;        /* space around text */
+    line-height: 1.6;     /* easier to read */
+    min-height: 100vh;    /* fills screen but allows more */
+    overflow-y: auto;     /* enables scrolling */
+}
+
         
         .header { background-color: #0B1E3F; color: #D4AF37; padding: 50px 0 20px 0; text-align: center; font-size: 24px; font-weight: bold; position: fixed; top: 0; width: 100%; z-index: 10; font-family: sans-serif; }
         .container { margin-top: 110px; padding: 20px; padding-bottom: 100px; overflow-y: scroll; height: calc(100vh - 110px); }
